@@ -19,5 +19,5 @@ from wechat_connect import views
 
 
 urlpatterns = [
-    url('^', ),
+    url('^', views.render),
 ]
